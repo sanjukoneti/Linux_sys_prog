@@ -1,0 +1,1 @@
+cmd_/home/sanju/my_modules/Hello_World/hello_world.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sanju/my_modules/Hello_World/hello_world.ko /home/sanju/my_modules/Hello_World/hello_world.o /home/sanju/my_modules/Hello_World/hello_world.mod.o;  true

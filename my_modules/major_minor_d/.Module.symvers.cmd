@@ -1,0 +1,1 @@
+cmd_/home/sanju/my_modules/major_minor_d/Module.symvers := sed 's/ko$$/o/' /home/sanju/my_modules/major_minor_d/modules.order | scripts/mod/modpost -m -a  -o /home/sanju/my_modules/major_minor_d/Module.symvers -e -i Module.symvers   -T -

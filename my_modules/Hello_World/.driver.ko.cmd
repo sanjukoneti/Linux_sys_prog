@@ -1,0 +1,1 @@
+cmd_/home/sanju/my_modules/Hello_World/driver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sanju/my_modules/Hello_World/driver.ko /home/sanju/my_modules/Hello_World/driver.o /home/sanju/my_modules/Hello_World/driver.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/sanju/my_modules/major_minor_d/major_minor_d.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sanju/my_modules/major_minor_d/major_minor_d.ko /home/sanju/my_modules/major_minor_d/major_minor_d.o /home/sanju/my_modules/major_minor_d/major_minor_d.mod.o;  true
